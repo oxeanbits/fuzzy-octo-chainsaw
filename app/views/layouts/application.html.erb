@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>DesafioRails</title>
+    <title>MovieApp</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -11,6 +11,17 @@
   </head>
 
   <body>
+    <nav>
+      <% if current_user %>
+        <% if current_user.admin? %>
+          <%= link_to "Create User", new_user_path %>
+        <% end %>
+        <%= form_tag logout_path, method: :delete do %>
+          <%= submit_tag "Logout" %>
+        <% end %>
+      <% end %>
+    </nav>
+
     <%= yield %>
   </body>
 </html>
