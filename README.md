@@ -1,11 +1,15 @@
-# README
+### Desafio para vaga de BackEnd - Foco em Ruby On Rails:
+
+Objetivo do Desafio:
+
+O objetivo deste desafio é avaliar suas habilidades no desenvolvimento com o framework Ruby On Rails, bem como quaisquer integrações necessárias, a implementação de funcionalidades que executam em segundo plano de forma síncrona, a escrita de testes e a criação de uma documentação clara.
 
 #### Requisitos:
 
 - ruby-3.1.4
 - sqlite3
 
-Ao executar:
+Clone o projeto e ao executar:
 
 ```ruby
 bundle install
