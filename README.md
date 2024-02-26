@@ -28,8 +28,10 @@ Será configurado uma aplicação rails contando com as seguintes funcionalidade
 #### Desafio:
 
 - Criar uma rota para importar em massa vários filmes
+  - Você pode criar essa rota para receber um arquivo csv ou um playload json, ou outra forma que ficar mais fácil de integrar
 - Criar uma rota para submeter notas em massa para vários filmes
-- Estas tarefas devem ser executadas em segundo plano numa segunda instância da aplicação
+  - Você pode criar essa rota para receber um arquivo csv ou um playload json, ou outra forma que ficar mais fácil de integrar
+- As tarefas acima **devem ser executadas em segundo plano**
   - Recomedamos usar o [Sidekiq](https://github.com/sidekiq/sidekiq) para gerenciar as tarefas em segundo plano, mas você pode escolher outra soluçãn
 
 #### Pontos Extras:
