@@ -21,18 +21,18 @@ Será configurado uma aplicação rails contando com as seguintes funcionalidade
 - Página de login
 - Rota para criação de novos usuários
 - Rota para cadastrar novo filme
-- Rotas para dar nota nos filmes
-- Exibi a média das notas de cada filme
+- Rota para dar nota nos filmes
+- Exibir a média das notas de cada filme
 
 
 #### Desafio:
 
 - Criar uma rota para importar em massa vários filmes
-  - Você pode criar essa rota para receber um arquivo csv ou um playload json, ou outra forma que ficar mais fácil de integrar
+  - Você pode criar essa rota para receber um arquivo csv ou um payload json, ou outra forma que ficar mais fácil de integrar
 - Criar uma rota para submeter notas em massa para vários filmes
-  - Você pode criar essa rota para receber um arquivo csv ou um playload json, ou outra forma que ficar mais fácil de integrar
+  - Você pode criar essa rota para receber um arquivo csv ou um payload json, ou outra forma que ficar mais fácil de integrar
 - As tarefas acima **devem ser executadas em segundo plano**
-  - Recomedamos usar o [Sidekiq](https://github.com/sidekiq/sidekiq) para gerenciar as tarefas em segundo plano, mas você pode escolher outra soluçãn
+  - Recomendamos usar o [Sidekiq](https://github.com/sidekiq/sidekiq) para gerenciar as tarefas em segundo plano, mas você pode escolher outra solução
 
 #### Pontos Extras:
 - Criar testes para as rotas da API e models da aplicação
